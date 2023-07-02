@@ -2,6 +2,8 @@
 
 Welcome to the Dice Rolling Game! This is a web-based game where players roll dice, accumulate points, and aim to reach a score of 100 to win. The game is developed using HTML, CSS, and JavaScript.
 
+#Play the game : https://dheerajsolanki1999.github.io/Dice_Mania/
+
 ## How to Play
 
 1. Open the game in a web browser.
