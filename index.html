@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Agdasima' rel='stylesheet'>
+    <title>Dice Mania</title>
+</head>
+<body>
+    <main class="game_container">
+        <nav class="navbar">
+            <div class="solankihub">SolankiHUB</div>
+            <div class="title"><span class="game_name">Dice Mania</span></div>
+        </nav>
+        <section class="inside_game_container">
+            <div class="game_box">
+                <div class="left">
+                    <div class="player" id="player1">Player 1</div>
+                    <div class="score_box" id="winner1">
+                        <div class="score" id="score1">0</div>
+                    </div>
+                    <div class="current_box">
+                        <div class="current"><span class="current_text">Current</span></div>
+                        <div class="current_score"><span class="current_score_text" id="current-1">0</span></div>
+                    </div>
+                </div>
+                <div class="mid">
+                    <div class="button_box1">
+                        <button class="play_again">Play Again 🎮</button>
+                    </div>
+                    <div class="dice_box">
+                        <img class="dice" src="start_the_game.gif">
+                    </div>
+                    <div class="button_box2">
+                        <div class="button_roll"><button class="btn-roll">Roll 🎲</button></div>
+                        <div class="button_hold"><button class="btn-hold">Hold 📥</button></div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="player" id="player2">Player 2</div>
+                    <div class="score_box" id="winner2">
+                        <div class="score" id="score2">0</div>
+                    </div>
+                    <div class="current_box">
+                        <div class="current"><span class="current_text">Current</span></div>
+                        <div class="current_score"><span class="current_score_text" id="current-2">0</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
